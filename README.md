@@ -29,3 +29,6 @@ but when I used cython, it got it done over 1000x faster. Times were in 4 digit 
 - There are even more ways of using C in python that I don't fully understand. Pygame uses SDL for example, but I didn't fully dive into how that works
 
 - Shared library files exist. I wasn't aware of these prior, but they are a distinct type of file from an executable, and must be compiled differently
+
+- .encode() is a function you can put at the end of a python string that makes it get passed in directly as bytes. This helped with ctypes because when I tried to use a python string for printf directly,
+  it would only read the first character, but doing printf("".encode()) successfully read everything
