@@ -27,3 +27,5 @@ but when I used cython, it got it done over 1000x faster. Times were in 4 digit 
 - VSCode seems to have trouble recognizing Cython libraries. even when the library is fully functional, the code flags it as unknown
 
 - There are even more ways of using C in python that I don't fully understand. Pygame uses SDL for example, but I didn't fully dive into how that works
+
+- Shared library files exist. I wasn't aware of these prior, but they are a distinct type of file from an executable, and must be compiled differently
