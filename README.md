@@ -24,6 +24,9 @@ Discoveries:
 - Cython is bafflingly fast. I wrote a performance check that compared Python to C by counting to 100000 in each. when i used ctypes to count to 100k, it did it around 60x faster than python on average,
 but when I used cython, it got it done over 1000x faster. Times were in 4 digit nanoseconds. I hope i didn't implement anything incorectly, because this difference is astonishing to me if it's the case.
 
+- There are two things called Cython and CPython that come up frequently in the same conversations. They are incredibly different from each other. PyPy also exists and is allegedly faster than Cython, but
+  it felt out of scope so I chose not to explore it.
+
 - VSCode seems to have trouble recognizing Cython libraries. even when the library is fully functional, the code flags it as unknown
 
 - There are even more ways of using C in python that I don't fully understand. Pygame uses SDL for example, but I didn't fully dive into how that works
