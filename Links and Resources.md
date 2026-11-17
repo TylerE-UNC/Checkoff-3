@@ -9,3 +9,4 @@ https://docs.python.org/3/library/ctypes.html
 https://en.wikipedia.org/wiki/Pygame
 https://www.pygame.org/docs/
 https://en.wikipedia.org/wiki/Ren%27Py
+https://www.tutorialspoint.com/pygame/pygame_overview.htm
