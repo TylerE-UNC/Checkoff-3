@@ -2,6 +2,7 @@ import time
 import os
 import ctypes
 
+
 start_time = time.time_ns();
 a = 0
 for i in range(100000):
